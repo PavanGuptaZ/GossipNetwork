@@ -1,0 +1,98 @@
+.formFullBox {
+    width: 100%;
+    height: 100%;
+    background: url('../assets/bg01.svg') center/cover no-repeat;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    overflow-y: scroll;
+    padding: 2rem 0;
+}
+
+
+.form {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    border-radius: 25px;
+    gap: 1rem;
+
+    .formLabel {
+        text-align: center;
+        font-weight: 800;
+        font-size: 1.25rem;
+        background: url('../assets/bg01.svg') center/cover no-repeat;
+        border-radius: 25px;
+        padding: 0.5rem;
+        color: #fff;
+        /* text-decoration: underline; */
+    }
+
+
+    .inputDivBox {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0.25rem;
+        /* margin: 0.25rem 0; */
+        width: 100%;
+        position: relative;
+
+        .inputBox {
+            border: none;
+            outline: none;
+            padding: 0.5rem;
+            font-size: 1rem;
+            width: 100%;
+            border-radius: 5px;
+
+            &:focus {
+                border: 1px solid #4969FF;
+            }
+        }
+
+        .passwordInput {
+            padding-right: 30px;
+        }
+
+        .inputLabel {
+            margin: 0 0.5rem;
+            font-weight: 600;
+        }
+
+        .passwordIcon {
+            position: absolute;
+            right: 10px;
+            top: 30px;
+            cursor: pointer;
+
+            &:hover {
+                color: red;
+            }
+        }
+
+        .warningLabel {
+            color: crimson;
+        }
+
+        .submitBTN {
+            width: 100px;
+            margin: auto;
+            background-color: #4969FF;
+            outline: none;
+            border: none;
+            padding: 0.5rem;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover {
+                font-weight: 600;
+            }
+        }
+    }
+}

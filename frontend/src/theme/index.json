@@ -1,0 +1,28 @@
+{
+    "dark": {
+        "body": "#121212",
+        "body2": "#000",
+        "main": "#4969FF",
+        "secondry": "#050505",
+        "alert": "#FF5B5B",
+        "color": "#fff",
+        "darkBTN": {
+            "backgroundColor": "#EDEDED",
+            "color": "#000"
+        },
+        "chatBody":"#000"
+    },
+    "light": {
+        "body": "#EDEDED",
+        "body2": "#FFF",
+        "main": "#4969FF",
+        "secondry": "#FAFAFA",
+        "alert": "#FF5B5B",
+        "color": "#000",
+        "darkBTN": {
+            "backgroundColor": "#555",
+            "color": "#EDEDED"
+        },
+        "chatBody":"#fff"
+    }
+}

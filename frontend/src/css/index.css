@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body {
+  min-width: 360px;
+  overflow: hidden;
+}
+
+.AppBox {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
